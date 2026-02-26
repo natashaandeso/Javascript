@@ -14,3 +14,6 @@ console.log(person[KeyName])
 const counties = ["Nairobi", "Mombasa", "Naivasha", "Machakos" ]
 console.log(counties[1]);
 console.log(counties[counties.length -1])
+
+// What is the difference between a dictionary in python, an object in Javascript and a json data when dealing with  APIs
+
