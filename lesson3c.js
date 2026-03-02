@@ -1,7 +1,7 @@
 // Javascript Functions
 // A function is a block of code that performs a certain action/task
 // The simple structure of a function is given in below:
-// function keyword, name of the function, parenthesis the body of the function insude of curlybraces.
+// function keyword, name of the function, parenthesis the body of the function inside of curlybraces.
 function sayHello(){
     console.log("Hello there, Hope you are having a good day?")
 }

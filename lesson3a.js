@@ -20,11 +20,12 @@ else{
     console.log("The new value of i is: ", i)
 }
 
-// Create a for loop that is able to print out all the leap years from 200 to 2026
+// Create a for loop that is able to print out all the leap years from 2000 to 2026
 
-for(let i = 2000; i <= 2026;){
-    console.log(i);
-    i+4;
+for(let year = 2000; year <= 2026; year++){
+    if ((year % 4 === 0 && year % 100 !== 0)|| year % 400 === 0){
+        console.log(year);
+    }
 }
 // check page 28
 for (let i= 1; i <= 19; i += 2){

@@ -16,7 +16,7 @@ console.log("=====================")
 // Example of a map loop 
 let numbers = [1, 2, 3, 4, 5];
 
-let doubled = numbers.map(num => num * 2);
+let doubled = numbers.map(num => num ** 2);
 
 console.log(doubled); // Output: [2, 4, 6, 8, 10]
 
@@ -30,7 +30,7 @@ const users = [
 const names = users.map(user => user.name);
 
 console.log(names); 
-
+console.log(typeof(names))
 // tasks on page 30
 for (let i = 1; i<= 19; i+= 2){
         console.log(i);
